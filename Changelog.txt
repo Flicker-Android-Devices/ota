@@ -1,0 +1,35 @@
+20240719 Update
+Note: This version has a new OTA function, but it has not been tested. You need to check whether it is available when the next update is released.
+
+- device: Import Display calibration blobs
+- device: Pin camera app in memory
+- device: Support local update
+- device: Support OTA (untested)
+- device: Other optimizations
+
+
+20240717 Update
+Note: This version optimizes the art configuration. Use adb to run "adb shell cmd package bg-dexopt-job" to get the best performance.
+
+- rom: Sync sources (16/07/2024)
+
+- device: Fix WFD (QTI WFD --> AOSP WFD)
+- device: Unlock additional camera framerates
+- device: Rework sepolicy
+- device: Remove LMK props
+- device: Optimize native executables for Cortex-A76 CPU
+- device: set PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER to speed
+- device: Disable ART debug and optimize dexpreopt
+- device: Disable dexpreopt minidebuginfo
+- device: Always preopt extracted APKs
+- device: Import full payment hal (mlipay mtd fidoca tida)
+- device: Support FIDO UAF1.0
+- device: Optimizing configuration for Chinese carriers
+- device: Allow XiaomiParts get props
+
+- kernel: Support for NTFS
+- kernel: Support UAS of usb storage
+- kernel: Drop WireGuard
+
+
+20240713 Init
