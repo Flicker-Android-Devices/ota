@@ -1,3 +1,21 @@
+20240722 Update
+* WARNING: This version updates blobs and requires new firmware
+Global: Hyper OS 1.0.3.0 Global
+China: Hyper OS 1.0.6.0 China
+
+- rom: Sync sources (22/07/2024)
+
+- device: Update blobs from psyche OS1.0.6.0.TLDCNXM
+- device: Update power_profile from V816.0.6.0.TLDCNXM
+- device: Sync audio configs from psyche V816.0.6.0.TLDCNXM
+- device: sepolicy: remove duplicate contexts
+- device: overlay: reconstruct to full RRO
+- device: Set default hotspot ssid
+- device: dolby: Restore all settings upon bootup
+- device: dolby: Update Chinese translation
+- device: Other optimizations
+
+
 20240719 Update
 Note: This version has a new OTA function, but it has not been tested. You need to check whether it is available when the next update is released.
 
