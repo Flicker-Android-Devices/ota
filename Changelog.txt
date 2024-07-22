@@ -1,3 +1,9 @@
+20240722 Update 2
+
+Formal PixelOS July 2024 Update
+- rom: Sync sources (22/07/2024)
+
+
 20240722 Update
 * WARNING: This version updates blobs and requires new firmware
 Global: Hyper OS 1.0.3.0 Global
