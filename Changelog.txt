@@ -1,3 +1,15 @@
+20240723 Update
+
+- rom: Sync sources (23/07/2024)
+Fixed issues with annoying notifications
+
+- device: Uprev audio HAL to 7.0
+- device: Support Spatial Audio
+- device: Optimize for Spatial Audio
+- device: Address IImsRadio denials
+- device: Don't sign Wifi RROs with platform cert
+
+
 20240722 Update 2
 
 Formal PixelOS July 2024 Update
