@@ -1,3 +1,9 @@
+20240724 Update
+
+- device: Rework sepolicy
+- device: Fix Secure NFC
+
+
 20240723 Update
 
 - rom: Sync sources (23/07/2024)
