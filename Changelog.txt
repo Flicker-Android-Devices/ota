@@ -1,3 +1,17 @@
+20240806 Update
+
+- rom: Sync sources (05/08/2024)
+
+- device: dolby: Add launcher icon
+- device: dolby: Added Chinese translation
+- device: sepolicy: camera_persist -> persist_camera
+- device: overlay: Modify the default captive portal server for Chinese users
+- device: overlay: Adjustment statusbar start padding
+- device: overlay: Update brightness overlay from psyche V816.0.6.0.TLDCNXM
+- device: overlay: Adjustment rounded corner overlay
+- device: other: Sync upstream updates
+
+
 20240724 Update
 
 - device: Rework sepolicy
