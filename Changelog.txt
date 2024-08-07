@@ -1,3 +1,19 @@
+20240807 Update
+Note: Adjusted the automatic brightness parameters. This version needs to check whether the automatic brightness still has jitter issues.
+
+- rom: Sync sources (07/08/2024)
+
+- device: overlay: Debouncing the light sensor
+- device: hardwera: Provide a Java library with required Xiaomi telephony methods
+- device: Build xiaomi-telephony-stub to provide the required Xiaomi IMS methods
+- device: Use the common Xiaomi FCM
+- device: Include qcom framework compatibility matrix
+- device: sepolicy: Rewrite xiaomi dolby sepolicy
+- device: overlay: Add support for doze auto brightness
+
+- vendor: Using the stock ims.apk. No need to patch now, we already have a solution
+
+
 20240806 Update
 
 - rom: Sync sources (05/08/2024)
