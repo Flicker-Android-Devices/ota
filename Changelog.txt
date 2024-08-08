@@ -1,3 +1,24 @@
+20240808 Update
+* WARNING: This version updates blobs and requires new firmware
+Global: Hyper OS 1.0.3.0 Global (Global users do not need to update)
+China: Hyper OS 1.0.7.0 China
+
+- device: Update blobs from V816.0.7.0.TLDCNXM
+- device: libinit: Add support of .mod_device hides
+- device: libinit: Add support of .cert hides
+- device: overlay: Only allow 5G SA on Jio
+- device: overlay: Enable VoNR on Jio 5G
+- device: overlay: Add Pakistan mcc configs
+- device: overlay: Enable voLTE/voWIFI/ViLTE for Sri Lankan Networks
+- device: overlay: Update configurations for Lifecell Ukraine
+- device: wlan: Remove entry for gEnableNUDTracking from ini file
+- device: wlan: Remove Scan item gPNOScanSupport
+- device: wlan: Remove drop_bcn_on_chan_mismatch ini
+- device: wlan: Remove TxPower2g and 5g from config file
+- device: wlan: Remove TDLS INI from ini file
+- device: wlan: Remove ini gEnablefwlog for HST and HSP
+
+
 20240807 Update
 Note: Adjusted the automatic brightness parameters. This version needs to check whether the automatic brightness still has jitter issues.
 
