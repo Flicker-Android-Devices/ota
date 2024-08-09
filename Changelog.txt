@@ -1,3 +1,19 @@
+20240809 Update
+
+- device: extract-files: Avoid patching NFC config if not needed
+- device: extract-files: Prevent adding duplicated dependencies
+- device: thermal: Adjustment thermal config
+(*  The default thermal config is too conservative, making our SD870 behave like a SD680.
+    Let's make some adjustments.
+    This may burn your phone, but I won't be responsible for it.
+    If you don't need to adjust, you can put the stock thermal config in /data/vendor/thermal/config )
+- device: Import missing CACertService
+- device: wlan: Remove g_prefer_5g_scc_to_dbs
+- device: wlan: Disable RX wakelock feature
+- device: wlan: Enable Optimized Power Management
+- device: parts: Add predictive-back flag in manifest
+
+
 20240808 Update
 * WARNING: This version updates blobs and requires new firmware
 Global: Hyper OS 1.0.3.0 Global (Global users do not need to update)
