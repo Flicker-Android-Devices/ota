@@ -1,3 +1,25 @@
+20240811 Update
+
+- rom: Sync sources (10/08/2024)
+- August security patch
+
+- device: sepolicy: Address vendor_hal_capabilityconfigstore_qti_default denial
+- device: sepolicy: Allow Wifi Hal to get prop
+- device: properties: Set media volume steps to 30
+- device: CarrierConfig: Globally enable LTE+ icon
+- device: CarrierConfig: Set LTE+ threshold bandwidth to 0
+- device: overlay: Enable force LTE_CA toggle
+- device: Update Skia Tracing Properties
+- device: wifi: Smarter decisions on whether to use 2/5Ghz AP
+- device: Import full Neural Networks category libs
+- device: sepolicy: Address vendor_mdm_helper denials
+- device: sepolicy: Label xiaomi modem boot devices
+- device: Inherit SDX55M tombstones sepolicy rules for mdmhelper
+- device: sepolicy: Address telephony denials
+- device: keylayout: Denylist all fingerprint input events
+- device: keylayout: Really denylist all fingerprint input events
+
+
 20240809 Update
 
 - device: extract-files: Avoid patching NFC config if not needed

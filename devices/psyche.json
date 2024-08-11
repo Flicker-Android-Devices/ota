@@ -1,13 +1,13 @@
 {
     "error": false,
     "version": "fourteen",
-    "filename": "PixelOS_psyche-14.0-20240809-0336.zip",
-    "datetime": 1723174479,
-    "size": 2527492439,
-    "url": "https://sourceforge.net/projects/flickerdev/files/PixelOS/fourteen/psyche/PixelOS_psyche-14.0-20240809-0336.zip",
-    "github_releases_url": "https://sourceforge.net/projects/flickerdev/files/PixelOS/fourteen/psyche/PixelOS_psyche-14.0-20240809-0336.zip",
-    "filehash": "c4ce0d779473703f6cb7ecd88cf9f610",
-    "id": "c4ce0d779473703f6cb7ecd88cf9f610",
+    "filename": "PixelOS_psyche-14.0-20240811-1233.zip",
+    "datetime": 1723379522,
+    "size": 2549639736,
+    "url": "https://sourceforge.net/projects/flickerdev/files/PixelOS/fourteen/psyche/PixelOS_psyche-14.0-20240811-1233.zip",
+    "github_releases_url": "https://sourceforge.net/projects/flickerdev/files/PixelOS/fourteen/psyche/PixelOS_psyche-14.0-20240811-1233.zip",
+    "filehash": "9cce637267bec4826855f6c15365a615",
+    "id": "9cce637267bec4826855f6c15365a615",
     "maintainers": [
         {
             "main_maintainer": false,
