@@ -1,3 +1,39 @@
+20240821 Update
+* WARNING: This version updates blobs and requires new firmware
+Global: Hyper OS 1.0.3.0 Global (Global users do not need to update)
+China: Hyper OS 1.0.8.0 China
+
+ROM:
+PixelOS August 2024 Update
+- rom: Sync sources (20/08/2024)
+- Fixed PlayIntegrity *yet again*
+- Improved variable refresh rate implementation
+- New bootanimation from Pixel 9
+- Fixed issues with secure window flags
+- Fixed minimum delay between an app's notification sounds feature
+- Fixed a SystemUI crash
+- Further miscellaneous fixes and optimizations
+
+Tree:
+Rebase on the latest los sm8250 common tree
+- device: Enable zram writeback
+- device: Define OEM fast charge sysfs node
+- device: Swtich from AOSP to Qualcomm WFD
+- device: Drop spatial audio
+- device: Update common blobs from munch V816.0.4.0.ULMCNXM
+- device: Update psyche blobs from psyche V816.0.8.0.TLDCNXM
+- device: Set autoBrightnessDarkeningLightDebounce to 3000
+- device: Configure config_stockFingerprint for ARCore profiles
+- device: Rewrite IR HAL in AIDL
+- device: Rework IFAAService
+- device: Switch to QTI Memtrack AIDL HAL
+- device: Add per-app refresh rate
+
+Kernel:
+Rebase on the latest los sm8250 common kernel
+- kernel: Merge Linux 4.19.318
+
+
 20240811 Update
 
 - rom: Sync sources (10/08/2024)
