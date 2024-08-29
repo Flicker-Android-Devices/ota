@@ -1,3 +1,15 @@
+20240829 Update
+* Eol for Android 14 build, No time for maintenance
+
+- device: Fixed Aod auto brightness
+- device: Import media c2 blobs
+- device: Import some props for MM modules
+
+- kernel: drivers: bq2597x: Remove floating point arithmetics
+- kernel: techpack: display: dsi: Enable brightness adjustment during aod for l3a and j11
+- kernel: arch: arm64: dts: panel: l3a: Add generic lp1/lp2 commands
+
+
 20240827 Update
 
 - device: Fixed random reboot
