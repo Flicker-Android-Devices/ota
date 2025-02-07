@@ -1,1 +1,69 @@
-\- Initial A15 release   
+日志/Changelog: [https://github.com/Flicker-Android-Devices/ota/blob/fifteen/updater/changelogs/psyche.md](https://github.com/Flicker-Android-Devices/ota/blob/fifteen/updater/changelogs/psyche.md)
+
+**中文：**  
+
+ROM：  
+同步源码(20250203)  
+新增背部轻敲手势  
+新增应用音量调节  
+新增侧边栏/小窗模式  
+其他细节：[https://github.com/PixelOS-AOSP](https://github.com/PixelOS-AOSP)  
+设备：  
+内核：合并上游los qcom sm8250内核的更新，Linux 4.19.325  
+修复使用MIPPS充电器时无法显示快充的问题（目前逻辑：使用原装充电器显示快充，其他显示慢充）  
+使用符合中国运营商标准的NR 5G信号显示阈值  
+增加自动高亮度模式  
+重做防闪烁模式UI  
+调度优化  
+调整wifi band优先级和阈值  
+新增颜色高级设置（参考官方色彩管理高级模式自定义）  
+重做色彩管理，加载正确的颜色配置（与官方一致）  
+移除不存在的启动项  
+修复toucheventcheck服务未正常启动的问题  
+调整音量步骤到30  
+重做小米支付环境hal sepolicy  
+导入Qti网络定位提供商  
+开启ZRAM dedup  
+使用Full Lto编译内核  
+修复pcc变化时屏幕亮度变化：  
+- 修复开启dc/hbm时无法使用livedisplay、护眼模式的问题  
+- 修复开启dc时旋转屏幕亮度变化的问题  
+- 修复小窗模式全屏亮度变化的问题  
+
+移除webcam  
+添加小米app  
+其他调整..  
+
+**English:**  
+
+ROM:  
+Synchronize source code (20250203)  
+Added back tap gesture  
+Added application volume adjustment  
+Added sidebar/small window mode  
+Other details: [https://github.com/PixelOS-AOSP](https://github.com/PixelOS-AOSP)  
+Devices:  
+Kernel: Merge the update of the upstream los qcom sm8250 kernel, Linux 4.19.325  
+Fixed the problem that fast charging cannot be displayed when using MIPPS charger (current logic: fast charging is displayed when using the original charger, and slow charging is displayed when using other chargers)  
+Use NR 5G signal display threshold that meets the standards of Chinese operators  
+Added automatic high brightness mode  
+Redo the anti-flicker mode UI  
+Scheduling optimization  
+Adjust wifi band priority and threshold  
+Added color advanced settings (refer to the official color management advanced mode customization)  
+Redo color management and load the correct color configuration (consistent with the official)  
+Remove non-existent startup items  
+Fix the problem that the toucheventcheck service did not start normally  
+Adjust the volume step to 30  
+Redo the Xiaomi payment environment hal sepolicy  
+Import Qti network positioning provider  
+Enable ZRAM dedup  
+Compile the kernel with Full LTO  
+Fix the screen brightness change when PCC changes:  
+- Fix the problem that LiveDisplay and Eye Protection Mode cannot be used when DC/HBM is turned on  
+- Fix the problem of screen brightness change when rotating when DC is turned on  
+- Fix the problem of full screen brightness change in small window mode  
+
+Remove webcam  
+Import MiApps  
+Other adjustments..  
