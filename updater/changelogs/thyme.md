@@ -1,41 +1,55 @@
 日志/Changelog: [https://github.com/Flicker-Android-Devices/ota/blob/fifteen/updater/changelogs/thyme.md](https://github.com/Flicker-Android-Devices/ota/blob/fifteen/updater/changelogs/thyme.md)  
 
-固件要求：HyperOS V1.0.4.0  
+20250218 Mi10S PixelOS 15 QPR1 February
 
-ROM：  
-同步源码(20250203)  
-新增背部轻敲手势  
-新增应用音量调节  
-新增侧边栏/小窗模式  
-其他细节：[https://github.com/PixelOS-AOSP](https://github.com/PixelOS-AOSP)  
-设备：  
-dts：从Thyme HyperOS V1.0.4.0版本更新保留内存节点的地址和大小  
-内核：合并上游los qcom sm8250内核的更新，Linux 4.19.325  
-修复使用MIPPS充电器时无法显示快充的问题（目前逻辑：使用原装充电器显示快充，其他显示慢充）  
-使用符合中国运营商标准的NR 5G信号显示阈值  
-增加自动高亮度模式  
-重做防闪烁模式UI  
-调整状态栏布局，修复AOD动画位置不正确的问题 @KaguraRinko  
-添加杜比音效  
-调度优化  
-调整杜比音效配置  
-优化低亮度时自动亮度的抖动  
-调整wifi band优先级和阈值  
-新增颜色高级设置（参考官方色彩管理高级模式自定义）  
-重做色彩管理，加载正确的颜色配置（与官方一致）  
-重新设计屏幕挖孔overlay  
-移除不存在的启动项  
-修复toucheventcheck服务未正常启动的问题  
-调整音量步骤到30  
-重做小米支付环境hal sepolicy  
-导入Qti网络定位提供商  
-开启ZRAM dedup  
-使用Full Lto编译内核  
-修复pcc变化时屏幕亮度变化：  
-- 修复开启dc/hbm时无法使用livedisplay、护眼模式的问题  
-- 修复开启dc时旋转屏幕亮度变化的问题  
-- 修复小窗模式全屏亮度变化的问题  
+日志(Changelog):
+ROM：
+- 同步最新源码(20250218)  
+  Sync latest source code(20250218)
+- 更新二月安全补丁  
+  Update the February security patch
+- 更多汉化  
+  More language translations
+- 移除侧边栏/小窗模式(PixelOS官方未加入该功能，我不再单独维护)  
+  Remove sidebar/window mode (Officially not included in PixelOS, I will no longer maintain this feature separately).
+- 更新中国电信澳门(CTMO)的APN  
+  Update the APN for China Telecom Macau (CTMO)  
+- 其他细节：  
+  Other details:   
+  https://github.com/PixelOS-AOSP / https://blog.pixelos.net/blog/
 
-移除webcam  
-添加小米app  
-其他调整..  
+设备(Device):
+- 移除酷控APP  
+  Remove the Kukoo app
+- 切换至AIDL Boot Control HAL  
+  Switch to AIDL Boot Control HAL
+- 从K40S OS1.0.8.0.ULMMIXM升级通用Blobs  
+  Upgrade to Common Blobs from K40S OS1.0.8.0.ULMMIXM
+- 使用最新的cgroups.json  
+  Use the latest cgroups.json
+- 正确配置Zram dedup  
+  Configure Zram dedup correctly
+- 调整模糊半径  
+  Adjust blur radius
+- 调整task_profiles  
+  Adjust task_profiles
+- 新增手电筒亮度调节  
+  Add flashlight brightness adjustment
+- 其他调整  
+  Other optimizations
+
+内核(Kernel)：
+- 新增MGLRU (Multi-Gen LRU)，改善内存管理性能  
+  Added MGLRU (Multi-Gen LRU) to improve memory management performance
+- 删除不需要的内核模块  
+  Remove unnecessary kernel modules
+
+注意(Notice):
+小米10S(Xiaomi 10S):
+- 小米10S固件要求：HyperOS V1.0.4.0  
+  Xiaomi 10S Firmware Requirements: HyperOS V1.0.4.0
+- 1.从20250118版本更新时需要更新底包至HyperOS V1.0.4.0  
+    When updating from 20250118, it is necessary to update fw to HyperOS V1.0.4.0
+- 2.从首个稳定版本（20241229）更新时需要使用自带rec双清  
+    When updating from the first stable version (20241229), 
+    it is necessary to wipe data using the built-in recovery.
