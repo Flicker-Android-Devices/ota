@@ -1,45 +1,26 @@
-20250614 Mi10S PixelOS 15 QPR2 June  
+20250718 Mi10S PixelOS 15 QPR2 June  
 
-日志(Changelog):
+日志:  
 ROM：
-- 同步最新源码(20250612)  
-  Sync latest source code(20250612)
-- 其他细节 / Other details:   
-  https://github.com/PixelOS-AOSP / https://blog.pixelos.net/blog/
+- 添加侧边栏/小窗  
 
-设备(Device):
-- BL锁状态隐藏 / Play integrity strong认证  
-  BL lock status hidden / Play integrity strong certification
-- 修复开启护眼模式时指纹无法识别的问题  
-  Limit the color temperature range of Night Light mode
-- 内存管理调整  
-  Memory management adjustments
-- 切换至AIDL红外遥控HAl  
-  switch to common AIDL IR service
-- 系统调度调整  
-  System scheduling adjustment
-- 优化屏上指纹解锁性能  
-  udfps: Use unique_fd and atomic<bool> for thread safety
-- 使用实现完整的ART优化  
-  Enable full ART optimizations with VDEX/ODEX
+设备:
+- 触控采样率动态调整  
+- 修复开启极暗模式时指纹识别率低的问题  
+- 添加哈曼卡顿开关  
+- 调整XiaomiParts的部分文案和UI  
+- 调整低环境亮度下自动亮度策略  
+- 修复锁屏下miui相机快捷打开  
+- 修复Google Play integrity strong认证  
 - 其他调整...  
-  Other optimizations...
 
-内核(Kernel)：
+内核：
 - 合并上游更新  
-  Merge upstream updates
+- 新增ksu 0.9.5 11872（可选）
 
-注意(Notice):  
-- 如果你需要小米相册，可自行下载安装  
-  https://www.pling.com/p/2208495/  
-  If you need Xiaomi Gallery, you can download and install it yourself.  
-  https://www.pling.com/p/2208495/
-
-小米10S(Xiaomi 10S):
+注意:  
+- 新增ksu 0.9.5 11872，默认不自带，需要更新系统后手动刷入ksu版本的boot.img  
 - 小米10S固件要求：HyperOS V1.0.4.0  
-  Xiaomi 10S Firmware Requirements: HyperOS V1.0.4.0
-- 1.从20250118版本更新时需要更新底包至HyperOS V1.0.4.0  
-    When updating from 20250118, it is necessary to update fw to HyperOS V1.0.4.0
-- 2.从首个稳定版本（20241229）更新时需要使用自带rec双清  
-    When updating from the first stable version (20241229), 
-    it is necessary to wipe data using the built-in recovery.
+- 从20250430之前的版本更新时，需要更新后在设置中清除 ‘高级设置（org.lineageos.settings）’的数据，并立即重启一次
+- 从20250118版本更新时需要更新底包至HyperOS V1.0.4.0  
+- 从首个稳定版本（20241229）更新时需要使用自带rec双清  

@@ -1,49 +1,25 @@
-20250614 Mi12X PixelOS 15 QPR2 June  
+20250718 Mi12X PixelOS 15 QPR2 June  
 
-日志(Changelog):
-ROM：
-- 同步最新源码(20250612)  
-  Sync latest source code(20250612)
-- 其他细节 / Other details:   
-  https://github.com/PixelOS-AOSP / https://blog.pixelos.net/blog/
-
-设备(Device):
-- BL锁状态隐藏 / Play integrity strong认证  
-  BL lock status hidden / Play integrity strong certification
-- 修复MIUI相机EIS  
-  Fix MiuiCamera EIS
-- 内存管理调整  
-  Memory management adjustments
-- 切换至AIDL红外遥控HAl  
-  switch to common AIDL IR service
-- 系统调度调整  
-  System scheduling adjustment
-- 优化屏上指纹解锁性能  
-  udfps: Use unique_fd and atomic<bool> for thread safety
-- 使用实现完整的ART优化  
-  Enable full ART optimizations with VDEX/ODEX
-- 添加google play认证overlay在线更新功能  
-  Add an ability to update certified props from server
-- 将默认zram压缩算法调整为lzo-rle  
-  Set zram default compression algorithm to lzo-rle
-- 调整LMK阈值  Add commentMore actions
-  Increase LMK threshold
-- zram wb大小调整到1G  
-  change backing device size to 1G
+日志(Changelog):  
+ROM:
+- 添加侧边栏/小窗  
+  Added sidebar / floating window
+- 触控采样率动态调整  
+  Dynamic touch sampling rate adjustment
+- 调整XiaomiParts的部分文案和UI  
+  Adjusted auto-brightness strategy under low ambient light
+- 修复锁屏下miui相机快捷打开  
+  Fixed quick opening of MIUI Camera while locked
+- 修复Google Play integrity strong认证  
+  Fixed Google Play Integrity STRONG certification
 - 其他调整...  
-  Other optimizations...
+  Other adjustments...
 
 内核(Kernel)：
 - 合并上游更新  
-  Merge upstream updates
-- 修复电量0%时无法关机的问题  
-  Fixed the issue that the battery could not be turned off when the battery was 0%.
-- 从Linux 5.10反向移植MG-LRU补丁  
-  Backport MG-LRU patches from Linux 5.10
-- 从Linux 5.10反向移植lzo-rle并设置为默认zram后端  
-  Backport lzo-rle from Linux 5.10 and set as the default zram backend
-- 移除zram dedup  
-  Drop zram dedup
+  Merged upstream updates
+- 新增ksu 0.9.5 11872（可选）  
+  Added ksu 0.9.5 11872 (optional)
 
 注意(Notice):
 小米12X(Xiaomi 12X):
